@@ -37,7 +37,7 @@ namespace FiboThreading {
 				Fibonacci f = fibArray[i];
 				Console.WriteLine("Fibonacci({0}) = {1}", f.N, f.FibOfN);
 			}
-			Console.WriteLine("Calculations were done in {0} seconds", watch.Elapsed.TotalSeconds);
+			Console.WriteLine("Calculations were done in {0} seconds ", watch.Elapsed.TotalSeconds);
 			Console.ReadKey();
 		}
 	}
